@@ -1,0 +1,15 @@
+.table{
+    border: 1px solid gray;
+}
+
+.th-border{
+    border-bottom: 3px solid gray;
+}
+
+.td-color{
+    background-color:rgb(199, 199, 249)
+}
+
+.td-color:hover{
+    background-color:rgb(163, 163, 249)
+}
