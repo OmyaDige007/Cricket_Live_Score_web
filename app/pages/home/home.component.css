@@ -1,0 +1,15 @@
+.bg-img-1{
+    background-image: url('https://cricketaddictor.com/wp-content/uploads/2021/04/179886679_179481794035852_84438759893279011_n.jpg');
+}
+.bg-img-2{
+    background-image: url('https://www.91-cdn.com/hub/wp-content/uploads/2023/09/How-to-watch-ICC-World-Cup-2023-online-1.png');
+}
+.bg-img-3{
+    background-image: url('https://www.91-cdn.com/hub/wp-content/uploads/2023/08/How-to-watch-Asia-Cup-2023-matches-online.png');
+}
+.carousel-image{
+    height: 87vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

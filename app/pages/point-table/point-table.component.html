@@ -1,0 +1,58 @@
+<div class="table-container px-28 py-8">
+    <h1 class="text-4xl font-extrabold text-gray-800 px-2">Point Table</h1>
+
+    <!-- <table class="text-center mt-8 min-w-full bg-white border border-gray-300 shadow-lg rounded-lg overflow-hidden">
+        <thead class="bg-gray-200">
+            <tr>
+                @for (heading of tableHeading; track $index) {
+                    <th class="py-2 px-4 border-b">{{heading}}</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @for (team of pointTable; track $index) {
+                <tr class=" hover:scale-105 transition-all cursor-pointer"
+               [ngClass]="{
+                'bg-green-200 hover:bg-green-400':$index<=4,
+                'bg-red-200 hover:bg-red-400':$index>4
+               }"
+                >
+                    @if($index>0){
+                        @for (data of team; track $index) {
+                            <td class="py-2 px-4 border-b" >{{data}}</td>
+                        }
+                    }
+                </tr>
+                
+            }
+           
+        </tbody>
+    </table> -->
+
+    <table class="table text-center mt-8 min-w-full   shadow-lg rounded-lg overflow-hidden">
+        <thead class="bg-gray-200">
+          <tr>
+            @for (heading of tableHeading; track $index) {
+                <th scope="col" class=" py-2 px-4 border-b th-border">{{heading}}</th>
+            }
+          </tr>
+        </thead>
+        <tbody>
+            @for (team of pointTable; track $index) {
+                <tr class=" hover:scale-105 transition-all cursor-pointer" 
+               
+                >
+                    @if($index>0){
+                        @for (data of team; track $index) {
+                            <td class="py-2 px-4 border-b td-color"
+                           
+                             >{{data}}</td>
+                        }
+                    }
+                </tr>
+                
+            }
+           
+        </tbody>
+      </table>
+</div>
